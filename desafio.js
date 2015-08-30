@@ -1,10 +1,10 @@
 var script = document.createElement('script');
 
-script.src = 'http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X';
-
+script.src = 'http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X';		/* Configuração de acesso
+												ao arquivo Json	*/
 document.getElementsByTagName('head')[0].appendChild(script);
 
-window.X = function (json){
+window.X = function (json){   												
 	
 	var reference = json.data.reference.item; //acessa o produto referência
 	var products = json.data.recommendation; //acessa o ramo com as recomendações
@@ -74,7 +74,7 @@ window.X = function (json){
 
 	}
 
-	$(document).ready(function(){
+	$(document).ready(function(){  //prevenção que nenhum jQuery comece antes do documento terminar de carregar
 		var wish = displayReference();
 		var body = showAll();
 		var container = document.getElementById("container");
