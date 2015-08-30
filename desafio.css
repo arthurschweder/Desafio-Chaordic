@@ -1,30 +1,30 @@
 body {
-    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-family: "Times New Roman", Georgia, serif;
     font-size: 16px;
     background-color: white; 
     padding: 3px;
 }
 
 h1 {
-    font-family: Georgia, serif;
-    border-bottom: 5px solid gold;
-    color: black;
-    font-size: 35px;
+    	font-family: "Times New Roman", Georgia,  serif;
+    	border-bottom: 5px solid gold;
+    	color: black;
+    	font-size: 35px;
 }
 hr {
 	width: 100%;
 }
 #containerAll{
-    position: relative;
-    margin-top: 0px;
-	margin-left: 20px;
+    	position: relative;
+    	margin-top: 0px;
+    	margin-left: 20px;
 	background-color: white;
 }
 #reference div{
 	position: relative;
 	display: inline-block;
-	width: 400px;	
-	padding-left: 10px;
+	width: 400px;			
+	padding-left: 10px;		/* definições de margem e padding do produto referência*/
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
@@ -45,7 +45,7 @@ hr {
 }	
 #container  ul{
 	margin: 30px;
-	padding: 30px;
+	padding: 30px;		/* definições de margem e padding dos produtos sugeridos*/
 	list-style: none outside;
 }
 #container ul li{
@@ -58,8 +58,7 @@ hr {
 	width: 170px;
 	text-align: center;
 	font-size: 12px;
-} 
-/* fazer 5 colunas e 2 linhas com os produtos sugeridos */
+} /* fazer 5 colunas e 2 linhas com os produtos sugeridos */
 #container ul li div a:link {
 	color: black;
 }
@@ -67,10 +66,8 @@ hr {
 	font-size: 18px;
 	font-weight: bolder;
 	color: blueviolet;   
-} 
-/* botar novo preço em destaque */
+} /* botar novo preço em destaque */
 #oldPrice{
 	color: grey;
 	font-size: 14px;
-} 
-/* deixar o preço antigo em "segundo plano" */
+} /* deixar o preço antigo em "segundo plano" */
